@@ -26,6 +26,11 @@
             <artifactId>model</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.atjh</groupId>
+            <artifactId>service-util</artifactId>
+            <version>1.0</version>
+        </dependency>
 
         <!--web-->
         <dependency>
