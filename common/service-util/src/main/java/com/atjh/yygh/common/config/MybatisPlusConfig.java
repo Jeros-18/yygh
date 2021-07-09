@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @EnableTransactionManagement
 @Configuration
-@MapperScan("com.atjh.yygh.*.mapper")
+//@MapperScan("com.atjh.yygh.*.mapper")
 public class MybatisPlusConfig {
     /**
      * 分页插件
