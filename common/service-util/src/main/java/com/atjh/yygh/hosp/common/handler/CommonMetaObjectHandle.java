@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.handler;
+package com.atjh.yygh.hosp.common.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;

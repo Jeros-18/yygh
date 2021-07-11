@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.config;
+package com.atjh.yygh.hosp.common.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

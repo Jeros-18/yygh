@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.resulet;
+package com.atjh.yygh.hosp.common.resulet;
 
 import lombok.Getter;
 

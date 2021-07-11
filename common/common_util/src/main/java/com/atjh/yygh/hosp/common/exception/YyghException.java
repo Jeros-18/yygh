@@ -1,7 +1,7 @@
-package com.atjh.yygh.common.exception;
+package com.atjh.yygh.hosp.common.exception;
 
 
-import com.atjh.yygh.common.resulet.ResultCodeEnum;
+import com.atjh.yygh.hosp.common.resulet.ResultCodeEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

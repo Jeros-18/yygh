@@ -1,9 +1,8 @@
 package com.atjh.yygh.hosp.controller;
 
 
-import com.atjh.yygh.common.exception.YyghException;
-import com.atjh.yygh.common.resulet.Result;
-import com.atjh.yygh.common.util.MD5;
+import com.atjh.yygh.hosp.common.resulet.Result;
+import com.atjh.yygh.hosp.common.util.MD5;
 import com.atjh.yygh.hosp.model.hosp.HospitalSet;
 import com.atjh.yygh.hosp.vo.hosp.HospitalSetQueryVo;
 import com.atjh.yygh.hosp.service.HospitalSetService;

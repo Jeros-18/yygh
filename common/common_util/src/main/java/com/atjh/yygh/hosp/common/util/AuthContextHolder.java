@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.util;
+package com.atjh.yygh.hosp.common.util;
 
 /**
  *

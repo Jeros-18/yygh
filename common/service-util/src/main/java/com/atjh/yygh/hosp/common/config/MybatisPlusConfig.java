@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.config;
+package com.atjh.yygh.hosp.common.config;
 
 import com.baomidou.mybatisplus.extension.plugins.OptimisticLockerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;

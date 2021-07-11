@@ -1,4 +1,4 @@
-package com.atjh.yygh.common.resulet;
+package com.atjh.yygh.hosp.common.resulet;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,7 +1,7 @@
-package com.atjh.yygh.common.exception;
+package com.atjh.yygh.hosp.common.exception;
 
 
-import com.atjh.yygh.common.resulet.Result;
+import com.atjh.yygh.hosp.common.resulet.Result;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
