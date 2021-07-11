@@ -22,6 +22,7 @@ import java.util.Random;
 @Api(tags = "医院设置管理")
 @RestController
 @RequestMapping("/admin/hosp/hospitalSet")
+@CrossOrigin
 public class HospitalSetController {
 
     //注入service
@@ -93,12 +94,12 @@ public class HospitalSetController {
     //5 根据id获取医院设置
     @GetMapping("getHospSet/{id}")
     public Result getHospSet(@PathVariable Long id) {
-        try{
-            //模拟异常
-            int a = 1/0;
-        }catch (Exception e){
-            throw new YyghException("失败hhh", 202);
-        }
+//        try{
+//            //模拟异常
+//            int a = 1/0;
+//        }catch (Exception e){
+//            throw new YyghException("失败hhh", 202);
+//        }
         HospitalSet hospitalSet = hospitalSetService.getById(id);
         return Result.ok(hospitalSet);
     }
@@ -121,5 +122,17 @@ public class HospitalSetController {
         return Result.ok();
     }
 
+    //8 医院设置锁定和解锁
+    @PutMapping("lockHospitalSet/{id}/{status}")
+    public Result lockHospitalSet(@PathVariable Long id,
+                                  @PathVariable Integer status) {
+        //根据id查询医院设置信息
+        HospitalSet hospitalSet = hospitalSetService.getById(id);
+        //设置状态
+        hospitalSet.setStatus(status);
+        //调用方法
+        hospitalSetService.updateById(hospitalSet);
+        return Result.ok();
+    }
 
 }
