@@ -3,8 +3,8 @@ package com.atjh.yygh.cmn.listener;
 import com.alibaba.excel.context.AnalysisContext;
 import com.alibaba.excel.event.AnalysisEventListener;
 import com.atjh.yygh.cmn.mapper.DictMapper;
-import com.atjh.yygh.hosp.model.cmn.Dict;
-import com.atjh.yygh.hosp.vo.cmn.DictEeVo;
+import com.atjh.yygh.model.cmn.Dict;
+import com.atjh.yygh.vo.cmn.DictEeVo;
 import org.springframework.beans.BeanUtils;
 
 public class DictListener extends AnalysisEventListener<DictEeVo> {

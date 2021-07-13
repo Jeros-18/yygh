@@ -1,7 +1,7 @@
 package com.atjh.yygh.hosp.service.impl;
 
 
-import com.atjh.yygh.hosp.model.hosp.HospitalSet;
+import com.atjh.yygh.model.hosp.HospitalSet;
 import com.atjh.yygh.hosp.service.HospitalSetService;
 import com.atjh.yygh.hosp.mapper.HospitalSetMapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

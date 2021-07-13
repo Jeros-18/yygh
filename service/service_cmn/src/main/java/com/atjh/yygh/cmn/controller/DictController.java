@@ -1,8 +1,8 @@
 package com.atjh.yygh.cmn.controller;
 
 import com.atjh.yygh.cmn.service.DictService;
-import com.atjh.yygh.hosp.common.resulet.Result;
-import com.atjh.yygh.hosp.model.cmn.Dict;
+import com.atjh.yygh.common.resulet.Result;
+import com.atjh.yygh.model.cmn.Dict;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
